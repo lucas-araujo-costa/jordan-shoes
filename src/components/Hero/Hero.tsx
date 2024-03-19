@@ -2,7 +2,7 @@ import vector from "../../assets/img/Hero/vector.png"
 
 export default function Hero() {
   return (
-    <section className="bg-base-image w-screen h-96 flex items-center">
+    <section className="bg-base-image h-96 flex items-center bg-no-repeat">
       <div className="text-white ml-80 flex flex-col gap-10 w-[34.8125rem]">
         <div className="flex gap-3 items-center">
           <img src={vector} alt="Ícone do Jordan" />
