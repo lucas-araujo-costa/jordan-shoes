@@ -8,12 +8,12 @@ import img6 from '../../assets/img/Main/air-jordan-6.png'
 
 export default function Main() {
   return (
-    <main className='flex flex-col items-center my-20 gap-20'>
-      <div className='flex flex-col items-center gap-6'>
-        <h2 className='text-4xl font-semibold'>Os melhores em só lugar</h2>
-        <p className='text-2xl text-center'>A marca Jordan na JordanShoes é a escolha certa para os amantes de sneakers que buscam estilo e conforto.</p>
+    <main className='flex flex-col items-center my-14 mx-8 gap-10'>
+      <div className='flex flex-col items-center gap-3 xl:gap-6'>
+        <h2 className='text-center font-semibold text-xl md:text-2xl xl:text-4xl '>Os melhores em só lugar</h2>
+        <p className='text-center text-sm md:text-base xl:text-2xl '>A marca Jordan na JordanShoes é a escolha certa para os amantes de sneakers que buscam estilo e conforto.</p>
       </div>
-      <div className='grid grid-cols-3 gap-8'>
+      <div className='grid gap-8 md:gap-10 md:grid-cols-2 xl:grid-cols-3'>
         <Item imgSrc={img1} imgAlt='Air Jordan 1' title='Air Jordan 1 Mid Dutch Green' brand='Tênis Air Jordan' price={1.199} />
         <Item imgSrc={img2} imgAlt='Air Jordan 2' title='Air Jordan 1 High Zoom CMFT Tropical Twist' brand='' price={1.049} />
         <Item imgSrc={img3} imgAlt='Air Jordan 3' title='Air Jordan 1 Mid Dutch Green' brand='Tênis Air Jordan' price={1.349} />
