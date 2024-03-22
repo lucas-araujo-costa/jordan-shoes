@@ -8,9 +8,9 @@ import img6 from '../../assets/img/Main/air-jordan-6.png'
 
 export default function Main() {
   return (
-    <main className='flex flex-col items-center mt-20 gap-20'>
-      <div className='flex flex-col items-center gap-6 w-4/12'>
-        <h2 className='text-4xl font-semibold'>Os melhores em um só lugar</h2>
+    <main className='flex flex-col items-center my-20 gap-20'>
+      <div className='flex flex-col items-center gap-6'>
+        <h2 className='text-4xl font-semibold'>Os melhores em só lugar</h2>
         <p className='text-2xl text-center'>A marca Jordan na JordanShoes é a escolha certa para os amantes de sneakers que buscam estilo e conforto.</p>
       </div>
       <div className='grid grid-cols-3 gap-8'>
