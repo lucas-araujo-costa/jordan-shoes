@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <img alt="projeto GreenBank" src="https://i.imgur.com/98YgKk4.png" width="100%">
+  <img alt="Jordan Shoes example image" src="https://i.imgur.com/98YgKk4.png" width="100%">
 </p>
 
 ## Project
